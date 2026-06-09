@@ -1,0 +1,34 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app {
+  width: 320px;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+li {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
